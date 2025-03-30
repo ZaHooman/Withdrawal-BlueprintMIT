@@ -1,0 +1,28 @@
+# C++ Source Files
+*.cpp     text eol=lf
+*.h       text eol=lf
+*.hpp     text eol=lf
+*.cc      text eol=lf
+*.cxx     text eol=lf
+*.hxx     text eol=lf
+
+# Arduino Sketch Files
+*.ino     text eol=lf
+*.pde     text eol=lf
+
+# Disable automatic line-ending normalization for Arduino files
+# since Arduino IDE may prefer to work with Windows-style line endings
+*.ino     text eol=crlf
+*.pde     text eol=crlf
+
+# C++ and Arduino Files: Enable syntax highlighting for diffs
+*.cpp     diff=c++
+*.h       diff=c++
+*.hpp     diff=c++
+*.ino     diff=c++
+*.pde     diff=c++
+
+# Text files to be treated as plain text
+*.txt     text
+*.md      text
+*.csv     text
